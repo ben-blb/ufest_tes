@@ -1,0 +1,4 @@
+<div class="a">
+<a *ngIf="!hasToken" href="https://discord.com/api/oauth2/authorize?client_id=833495035785379860&redirect_uri=http%3A%2F%2Flocalhost%3A4200%2Fuser%2F&response_type=token&scope=identify%20email%20guilds.join">Iniciar sesion con Discord</a>
+<h1 *ngIf="hasToken">Bienvenido {{username}}</h1>
+</div>
